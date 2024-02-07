@@ -5,7 +5,7 @@ I will detail the equations and the code that allowed me to obtain this result o
 
 First, take a pen and paper, and let's determine the equations of motion for the generalized coordinates $\theta_1$ and $\theta_2$ using the Euler-Lagrange equations: $\displaystyle \frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{q}_i} - \frac{\partial \mathcal{L}}{\partial q_i} = 0$
 
-It gives us 2 coupled diffenretial equations for $\theta_1$ and $\theta_2$.
+It gives us 2 coupled diffenretial equations for $\theta_1$ and $\theta_2$ :
 
 $$
     \begin{array}{ll}
@@ -13,3 +13,6 @@ $$
         \ddot{\theta}_2 = f_2(\theta_1, \dot{\theta}_1, \theta_2, \dot{\theta}_2)
     \end{array}
 $$
+
+and we solve these ODEs with odeint from the scipy library. We repeat these process for N double pendulums and put all values in a matrix $[[\theta_1^1, \theta_2^1], [\theta_1^2, \theta_2^2], ..., [\theta_1^N, \theta_2^1N]]$
+
