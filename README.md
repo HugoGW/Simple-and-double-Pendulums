@@ -7,7 +7,7 @@ First, take a pen and paper, and let's determine the equations of motion for the
 
 It gives us 2 coupled diffenretial equations for $\theta_1$ and $\theta_2$.
 
-\[
+$\[
 \left\{
 \begin{array}{l}
 \ddot{\theta}_1 = f_1(\theta_1, \dot{\theta}_1, \theta_2, \dot{\theta}_2) \\
@@ -15,4 +15,4 @@ It gives us 2 coupled diffenretial equations for $\theta_1$ and $\theta_2$.
 \ddot{\theta}_2 = f_2(\theta_1, \dot{\theta}_1, \theta_2, \dot{\theta}_2)
 \end{array}
 \right.
-\]
+\]$
