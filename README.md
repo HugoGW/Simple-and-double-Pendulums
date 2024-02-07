@@ -20,7 +20,7 @@ Then, we choose our initial condition for our angles $\theta_1(t=0), \theta_2(t=
 
 In this code, I choose that my N double pendulums all have the same initial conditions except for $\displaystyle \theta_1^k(t=0) = \theta_1(t=0)\times k d\theta_1 ~~ \forall ~ k \in  {1,...,N}$.
 
-Once every couple of angle [\theta_1^k, \theta_2^k] solved, we determine the position of the masses of the double pendulum with polar coordinates (by taking into account that the zero angle starts at $-\pi /2$ on the unit circle because $\vec{g} // -\vec{e}_y$: 
+Once every couple of angle [\theta_1^k, \theta_2^k] solved, we determine the position of the masses of the double pendulum with polar coordinates (by taking into account that the zero angle starts at $-\pi /2$ on the unit circle because $\vec{g} ~ // -\vec{e}_y$: 
 
 $$
     \begin{array}{ll}
