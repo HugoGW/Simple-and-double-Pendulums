@@ -25,9 +25,9 @@ Once every couple of angle $[\theta_1^k, \theta_2^k]$ solved, we determine the p
 $$
     \begin{array}{ll}
         x_1^k = L_1 \sin(\theta_1^k) \\
-        y_1^i = -L_1 \cos(\theta_1^k) \\
-        x_2^i = x_1^k + L_2 \sin(\theta_2^k) \\
-        y_2^i = y_1^k -L_2 \cos(\theta_2^k) \\
+        y_1^k = -L_1 \cos(\theta_1^k) \\
+        x_2^k = x_1^k + L_2 \sin(\theta_2^k) \\
+        y_2^k = y_1^k -L_2 \cos(\theta_2^k) \\
     \end{array}
 $$
 
